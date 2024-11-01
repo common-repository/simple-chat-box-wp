@@ -1,0 +1,111 @@
+.caja-popup{
+	width: 290px;
+    position: fixed;
+    z-index: 9999999;
+	right: 12px;
+    bottom: 12px;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.caja-popup-1{
+	margin-bottom:10px;
+	display:none;
+}
+.caja-popup-abierto{
+	display: inline-block;
+	float:right;
+	border-radius: 8px;
+	overflow: hidden;
+	width: 232px;
+	vertical-align: bottom;
+	box-sizing: border-box;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+.popup-abierto-1{
+	color: #ffffff;
+    background-color: #22C15E;
+	font-size: 13px;
+	text-align: center;
+	padding: 18px 12px;
+	line-height: 16px;
+}
+.popup-abierto-2{
+	background-color: #fff;
+	font-size: 14px;
+	padding: 16px 12px;
+	color: #888FBB;
+	line-height: 16px;
+	user-select: none;
+	text-align: left;
+}
+.popup-cerrado{
+	float: right;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color:#22C15E;
+	color:#fff;;
+	box-sizing: border-box;
+	box-shadow: 0 0 50px rgba(0,0,0,0.2);
+	display:flex;
+}
+.popup-cerrado-cruz{
+	float: right;
+	padding: 5px 7px;
+    font-size: 14px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 0px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color:#22C15E;
+	color:#fff;;
+	box-sizing: border-box;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+.caja-input{
+	width: 232px;
+	margin-top: 14px;
+	float: right;
+	background-color: #fff;
+	padding: 8px 12px;
+	border-radius: 8px;
+	position: relative;
+	box-sizing: border-box;
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+}
+.input-chat{
+	border: none !important;
+	background-color: transparent !important;
+	outline: none !important;
+	padding: 6px 0 !important;
+	margin: 0 !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 14px !important;
+	box-shadow: none !important;
+	color: #000 !important;
+	vertical-align: middle !important;
+	display: inline-block !important;
+	width: 166px !important;
+	height: auto !important;
+}
+.enviar-chat{
+	cursor: pointer;
+	padding: 6px;
+	width: 37.5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.whatsapp-icon{
+	width:20px;
+	display: inline;
+	margin-right:5px;
+}
+.close-icon{
+	width: 13px;
+	display: inline;
+	margin-top: 2px;
+}
